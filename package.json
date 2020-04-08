@@ -1,0 +1,27 @@
+{
+  "name": "online-portal-api",
+  "version": "1.0.0",
+  "description": "Online portal services",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rahulk7-fj/online-portal-api.git"
+  },
+  "author": "Rahul K",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rahulk7-fj/online-portal-api/issues"
+  },
+  "homepage": "https://github.com/rahulk7-fj/online-portal-api#readme",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.7",
+    "nconf": "^0.10.0"
+  }
+}
